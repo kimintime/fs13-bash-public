@@ -1,5 +1,8 @@
 # Bash scripting assignment
-1. Assignment 1
+The bash scripts in this repo are my first forrays into bash. They each follow the criteria set out below.
+
+## The assignments
+1. Assignment 1 - count.commits.sh
 - Given a directory to a code repos, print out a list of contributor’s name along with number of commits. If names of author are provided as arguments, return only commits for those.
 - Print out usage instruction if arguments are not given correctly
 - For example:
@@ -14,7 +17,7 @@ Mr. A - 100
 Mr. B - 200
 Mr. C - 300
 ```
-2. Assignment 2
+2. Assignment 2 - count-components.sh
 - Given a directory of a React project repos, count number of times a component with a given name is used (the component name should be given as argument of the script & multiple names can be given)
 - Print out usage instruction if arguments are not given
 - For example: ./component-count.sh Button Header Footer
@@ -25,7 +28,7 @@ Button - 10
 Header - 2
 Footer - 1
 ```
-3. Assignment 3 [https://restcountries.com/](https://restcountries.com/)
+3. Assignment 3 [https://restcountries.com/](https://restcountries.com/) - rest-countries.sh
 Write a script that
 - Given a name (or names) of a country, print out information about the country name, population, capital, languages. The name should be argument of the script (hint: use jq for parsing json)
 - Print out usage instruction if arguments are not given
@@ -44,4 +47,7 @@ Population: 5491817
 Languages: Finnish, Swedish
 
 ```
+
+## Installation
+To use these apps, they will assume you have a bash shell, curl, and jq. 
 
